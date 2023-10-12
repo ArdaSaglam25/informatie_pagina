@@ -219,8 +219,6 @@ html{
     width: 100%;
 }
 
-
-
 .features .row .content{
     flex: 1 1 45rem;
 }
@@ -241,93 +239,3 @@ html{
 }
 /* features section ends */
 
-
-/* downloads section starts  */
-
-.download .box-container{
-    display: grid;
-    gap: 4rem;
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-}
-
-.download .box{
-    border: 2px solid var(--Soft-Blue);
-    box-shadow: var(--box-shadow);
-    border-radius: .5rem;
-    text-align: center;
-    padding: 2.5rem;
-}
-.download .box:hover{
-    border: 2px solid var(--Soft-Blue);
-    box-shadow: none;
-}
-
-
-.download .box h3{
-    font-size: 2rem;
-    padding: 1rem 0;
-    color: var(--Very-Dark-Blue);
-}
-
-
-
-.download .box p{
-    font-size: 1.7rem;
-    padding-bottom: 2.5rem;
-    color: var(--Grayish-Blue);
-}
-
-/* downloads section ends */
-
-
-
-/* footer section starts */
-.footer .box-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
-    gap:2rem;
-}
-
-.footer .box-container .box h3{
-    font-size: 2.5rem;
-    color:var(--black);
-    padding: 1rem 0;
-}
-
-.footer .box-container .box a{
-    display: block;
-    font-size: 1.5rem;
-    color:var(--light-color);
-    padding: 1rem 0;
-}
-
-.footer .box-container .box a i{
-    padding-right: .5rem;
-    color:var(--green);
-}
-
-.footer .box-container .box a:hover i{
-    padding-right:1rem;
-}
-
-
-.footer .credit{
-    padding: 1rem;
-    padding-top: 2rem;
-    margin-top: 2rem;
-    text-align: center;
-    font-size: 2rem;
-    color: #000;
-    border-top: .1rem solid rgba(0, 0, 0, .1);
-}
-
-
-.footer .credit span{
-    color: var(--Soft-Red);
-    cursor: pointer;
-}
-
-
-/* footer section ends */
