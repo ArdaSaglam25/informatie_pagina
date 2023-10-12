@@ -2,49 +2,199 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tips voor solisitreren</title>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
-    <div class="container-fluid">
-        <!-- Nav tabs -->
-        <ul class="nav nav-tabs" id="navId" role="tablist">
-            <li class="nav-item">
-                <a href="#tab1Id" class="nav-link active" data-bs-toggle="tab" aria-current="page">Active</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#tab2Id">Action</a>
-                    <a class="dropdown-item" href="#tab3Id">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#tab4Id">Action</a>
-                </div>
-            </li>
-            <li class="nav-item" role="presentation">
-                <a href="#tab5Id" class="nav-link" data-bs-toggle="tab">Another link</a>
-            </li>
-            <li class="nav-item" role="presentation">
-                <a href="#" class="nav-link disabled" data-bs-toggle="tab">Disabled</a>
-            </li>
-        </ul>
-        
-        <!-- Tab panes -->
-        <div class="tab-content" id="myTabContent">
-            <div class="tab-pane fade show active" id="tab1Id" role="tabpanel"></div>
-            <div class="tab-pane fade" id="tab2Id" role="tabpanel"></div>
-            <div class="tab-pane fade" id="tab3Id" role="tabpanel"></div>
-            <div class="tab-pane fade" id="tab4Id" role="tabpanel"></div>
-            <div class="tab-pane fade" id="tab5Id" role="tabpanel"></div>
+
+     <!-- navbar sections starts  -->
+     <header class="header">
+        <div class="logo">
+            <img src="/img/2019-47-Effectief-solliciteren-5-doeltreffende-tips-1.jpg" alt="logo-bookmark">
         </div>
-        
-        <!-- (Optional) - Place this js code after initializing bootstrap.min.js or bootstrap.bundle.min.js -->
-        <script>
-            var triggerEl = document.querySelector('#navId a')
-            bootstrap.Tab.getInstance(triggerEl).show() // Select tab by name
-        </script>
-        
-    </div>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#download">Download</a>
+            <a href="#footer">Contact</a>
+            <a href="#" class="btn">Log in</a>
+        </nav>
+
+
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </header>
+    <!-- navbar sections starts  -->
+
+   
+    <!-- home section stars  -->
+
+    <section class="home" id="home">
+        <div class="content">
+            <h1>Simple Bookmark Manager</h1>
+            <p>A clean and simple interface to organize your favorite websites. open a browser tab and see your sites load instantly. try it for free!!</p>
+
+            <a href="#" class="home-btn">get it on chrome</a>
+        </div>
+
+
+        <div class="image">
+            <img src="/img/Solliciteren-via-camera-Lees-hier-de-beste-tips.jpg" alt="illustration-hero">
+        </div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- features sectin starts  -->
+
+    <section class="features" id="features">
+        <div class="heading">
+            <h1>Features</h1>
+            <p>Our aim is to make it quick and easy for you to access your favorite websites. your bookmarks sync between your devices so you can access them on the go</p>
+        </div>
+
+
+        <div class="row">
+            <!-- 1 Tab  -->
+            <div class="image">
+                <img src="/img/Middel-1-e1556100971430.jpg" alt="illustration-features-tab-1">
+            </div>
+
+
+            <div class="content">
+                <h1>Bookmark in one click</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi sint odit tempora, maiores quos qui quisquam accusamus ad officiis sapiente.</p>
+                <a href="#" class="all-btn">more info</a>
+            </div>
+
+            <!-- 1 Tab  -->
+
+            <!-- 2 Tab  -->
+            <div class="content">
+                <h1>Intelligent search</h1>
+                <p>Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.</p>
+                <a href="#" class="all-btn">more info</a>
+            </div>
+
+            <div class="image">
+                <img src="images/illustration-features-tab-2.svg" alt="illustration-features-tab-2">
+            </div>
+
+            <!-- 2 Tab  -->
+
+            <div class="image">
+                <img src="images/illustration-features-tab-3.svg" alt="illustration-features-tab-3">
+            </div>
+
+            <div class="content">
+                <h1>Share your bookmarks</h1>
+                <p>Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.</p>
+                <a href="#" class="all-btn">more info</a>
+            </div>
+
+
+            <!-- 3 Tab  -->
+
+        </div>
+    </section>
+
+
+    <!-- features sectin ends -->
+
+
+    <!-- downloads section starts  -->
+
+    <section class="download" id="download">
+        <div class="heading">
+            <h1>Download Extension</h1>
+            <p>We've got more browsers in the pipeline. Please do le us know if you got've got a favorite you'd like us to prioritize</p>
+        </div>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="images/logo-chrome.svg" alt="logo-chrome">
+
+                <h3>Add to Chrome</h3>
+                <p>Minimum Version 63</p>
+                <a href="#" class="all-btn">install</a>
+            </div>
+
+            <div class="box">
+                <img src="images/logo-firefox.svg" alt="logo-firefox">
+
+                <h3>Add to Firefox</h3>
+                <p>Minimum Version 55</p>
+                <a href="#" class="all-btn">install</a>
+            </div>
+
+            <div class="box">
+                <img src="images/logo-opera.svg" alt="logo-opera">
+
+                <h3>Add to Opera</h3>
+                <p>Minimum Version 46</p>
+                <a href="#" class="all-btn">install</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- downloads section ends -->
+
+
+
+    <!-- footer section starts  -->
+
+   <section class="footer" id="footer">
+       <div class="box-container">
+           <div class="box">
+               <h3>quick links</h3>
+               <a href="#"><i class="fas fa-chevron-right"></i>home</a>
+               <a href="#"><i class="fas fa-chevron-right"></i>features</a>
+               <a href="#"><i class="fas fa-chevron-right"></i>download</a>
+               <a href="#"><i class="fas fa-chevron-right"></i>contact</a>
+            </div>
+            
+            
+            <div class="box">
+                <h3>our services</h3>
+                <a href="#"><i class="fas fa-chevron-right"></i>bookmark extension</a>
+                <a href="#"><i class="fas fa-chevron-right"></i>chrome themes</a>
+                <a href="#"><i class="fas fa-chevron-right"></i>firefox themes</a>
+                <a href="#"><i class="fas fa-chevron-right"></i>screen recorder extension</a>
+                <a href="#"><i class="fas fa-chevron-right"></i>screen shot extension</a>
+           </div>
+
+           <div class="box">
+               <h3>contact info</h3>
+               <a href="#"><i class="fas fa-phone"></i>+123-456-789</a>
+               <a href="#"><i class="fas fa-phone"></i>+111-222-3333</a>
+               <a href="#"><i class="fas fa-envelope"></i>company@example.com</a>
+               <a href="#"><i class="fas fa-envelope"></i>company@example.com</a>
+               <a href="#"><i class="fas fa-map-marker-alt"></i>Mumbai, india - 12345</a>
+           </div>
+
+           <div class="box">
+               <h3>follow us</h3>
+               <a href="#"><i class="fab fa-facebook-f"></i>facebook</a>
+               <a href="#"><i class="fab fa-twitter"></i>facebook</a>
+               <a href="#"><i class="fab fa-instagram"></i>instagram</a>
+               <a href="#"><i class="fab fa-linkedin"></i>linkedin</a>
+               <a href="#"><i class="fab fa-pinterest"></i>pinterest</a>
+           </div>
+       </div>
+
+
+       <div class="credit">created by
+           <a href="https://www.youtube.com/channel/UCK5YMqyy_fjAtwgu9hjxXJg" target="_blank"><span>Pranav Raj</span> | all rights reserved</a>
+       </div>
+   </section>
+
+    <!-- footer section ends -->
+
+
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
