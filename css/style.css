@@ -85,7 +85,7 @@ html{
     --border: .2rem  solid var(--green);
 }
 
-@media (max-width: 991px){
+@media (max-width: 1200px){
     html{
         font-size: 55%;
     }
@@ -95,7 +95,7 @@ html{
     
 }
 
-@media (max-width: 768px){
+@media (max-width: 868px){
     #menu-btn{
         display: initial;
     }
@@ -211,7 +211,7 @@ html{
 }
 
 .features .row .image{
-    flex: 1 1 45rem;
+    flex: 45rem;
 }
 
 
@@ -226,7 +226,8 @@ html{
 
 .features .row .content h1{
     font-size: 4rem;
-    padding: 1rem 0;
+    padding: 10rem ;
+    margin: 10rem;
     color: var(--Very-Dark-Blue);
 }
 
